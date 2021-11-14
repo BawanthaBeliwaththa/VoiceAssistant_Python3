@@ -22,9 +22,9 @@ from clint.textui import progress
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
 
-engine = pyttsx3.init('espeak') #sapi5
+engine = pyttsx3.init('espeak') #windows users "sapi5", mac users "".
 voices = engine.getProperty('voices')
-engine.setProperty('voice', voices[2].id)
+engine.setProperty('voice', voices[2].id) #you can use any voice id
 
 def speak(audio):
 	engine.say(audio)
@@ -47,7 +47,7 @@ def wishMe():
 		speak("Evening")
 		speak("Sir")
 
-	assname =("jarvis")
+	assname =("jarvis") #asssistant name
 	speak("I")
 	speak("Am")
 	speak("Your")
@@ -62,7 +62,7 @@ def usrname():
 		speak("call")
 		speak("you")
 		speak("Sir")
-		uname = takeCommand()
+		uname = takeCommand() #User/Your name
 		speak(uname)
 		columns = shutil.get_terminal_size().columns
 	
@@ -292,7 +292,7 @@ if __name__ == '__main__':
 			speak("in")
 			speak("Your")
 			speak("browser")
-			webbrowser.open("https://www.dailymirror.lk")
+			webbrowser.open("https://www.dailymirror.lk") #for news I used this
 
 
 
@@ -401,29 +401,6 @@ if __name__ == '__main__':
 			speak("opend")
 			webbrowser.open("www.google.com")
 
-		elif 'speed test' in query:
-			speak("okay")
-			speak("sir")
-			os.system("speedtest")
 
-		elif 'database' in query:
-			speak("okay")
-			speak("sir")
-			os.system("mariadb")
-
-		elif 'hack' in query:
-			speak("okay")
-			speak("sir")
-			os.system("python3 cam-hackers.py")
-
-		elif 'camera' in query:
-			speak("okay")
-			speak("sir")
-			os.system("cheese")
-		
-		elif 'android' in query:
-			speak("okay")
-			speak("sir")
-			os.system("evil-droid")
-
+# YOU CAN ADD MANY MORE FEATURES...
 	
