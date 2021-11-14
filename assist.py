@@ -155,9 +155,9 @@ if __name__ == '__main__':
 			speak("Here it's Google\n")
 			webbrowser.open("google.com")
 
-		elif 'stackoverflow' in query:
-			speak("Here you go to Stack Over flow.Happy coding")
-			webbrowser.open("stackoverflow.com")
+		elif 'github' in query:
+			speak("Here you go to Git Hub. Happy coding")
+			webbrowser.open("github.com")
 
 		elif 'music' in query or "song" in query:
 			speak("Here")
