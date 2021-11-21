@@ -5,9 +5,16 @@ A new voice assistant for you using python3 language.
 You will have to install some modules first.
 
 ```
-pip install pyaudio
+pip install wolframalpha
 pip install pyjokes
 pip install beautifulsoup4
+pip install pyttsx3
+pip install SpeechRecognition
+pip install wikipedia
+pip install pyjokes
+pip install clint
+pip install twilio
+
 ```
 Those are some of needed modules.
 
