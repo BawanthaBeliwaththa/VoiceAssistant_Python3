@@ -14,7 +14,6 @@ pip install wikipedia
 pip install pyjokes
 pip install clint
 pip install twilio
-
 ```
 Those are some of needed modules.
 
