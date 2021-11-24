@@ -14,12 +14,12 @@ pip install wikipedia
 pip install pyjokes
 pip install clint
 pip install twilio
-
 ```
 Those are some of needed modules.
 
 !  **If you unable to install PyAudio please follow these steps**!
 
+For Linux Users !
 ```
 sudo apt-get install libasound-dev
 git clone https://github.com/PortAudio/portaudio.git
@@ -28,7 +28,11 @@ cd portaudio
 make
 sudo make install
 pip install pyaudio
-
+```
+For Windows Users!
+```
+pip install pipwin
+pipwin install pyaudio
 ```
 
 If you want to get all the modules you can join our telegram group.
