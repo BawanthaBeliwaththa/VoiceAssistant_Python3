@@ -1,3 +1,5 @@
+# I Made This For Linux Users.
+
 import subprocess
 import wolframalpha
 import pyttsx3
