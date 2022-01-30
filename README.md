@@ -4,6 +4,13 @@ A new voice assistant for you using python3 language.
 
 You will have to install some modules first.
 
+You can install them by using,
+
+```
+pip3 install -r requirements.txt
+```
+Or using,
+
 ```
 pip install wolframalpha
 pip install pyjokes
