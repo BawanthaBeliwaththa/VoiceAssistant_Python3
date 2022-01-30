@@ -1,0 +1,10 @@
+wolframalpha
+pyjokes
+beautifulsoup4
+pyttsx3
+SpeechRecognition
+wikipedia
+clint
+twilio
+pipwin
+pyaudio
