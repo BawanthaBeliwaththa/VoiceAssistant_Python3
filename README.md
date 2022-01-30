@@ -18,7 +18,6 @@ pip install beautifulsoup4
 pip install pyttsx3
 pip install SpeechRecognition
 pip install wikipedia
-pip install pyjokes
 pip install clint
 pip install twilio
 ```
