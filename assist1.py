@@ -44,7 +44,7 @@ def wishMe():
 	else:
 		speak("Good evening sir")
 
-	assname =("Achintha")
+	assname =("Anna")
 	speak("I am your assistant mister")
 )
 	speak(assname)
