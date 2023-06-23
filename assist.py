@@ -49,7 +49,7 @@ def wishMe():
 		speak("Evening")
 		speak("Sir")
 
-	assname =("jarvis") #asssistant name
+	assname =("ANNA") #asssistant name
 	speak("I")
 	speak("Am")
 	speak("Your")
