@@ -34,6 +34,7 @@ cd portaudio
 make
 sudo make install
 pip install pyaudio
+sudo apt install espeak
 ```
 For Windows Users!
 ```
